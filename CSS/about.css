@@ -197,8 +197,7 @@ img {
     margin: 10px;
     text-align: center;
     padding: 10px;
-    text-transform: uppercase;
-    position: relative;
+    text-transform: uppercase;}    position: relative;
 }
 
 .button:hover {
