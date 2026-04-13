@@ -141,3 +141,43 @@ header{
 .contact-info a {
     color: #66F6F1;
 }
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto 40px;
+    padding: 20px 0;
+}
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.contact-form label {
+    color: #F9FAFA;
+    font-size: 16px;
+    text-align: left;
+}
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px 15px;
+    border-radius: 10px;
+    border: 1px solid #474E68;
+    background: #F9FAFA;
+    color: #000;
+    font-size: 16px;
+}
+.contact-form textarea {
+    resize: vertical;
+    min-height: 140px;
+}
+.contact-form .button {
+    width: fit-content;
+    padding: 12px 24px;
+    margin: 0 auto;
+}
+.note {
+    color: #BFC4D3;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+}
