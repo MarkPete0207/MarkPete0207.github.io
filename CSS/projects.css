@@ -281,9 +281,6 @@ img {
     margin-left: 11vh;
     display: inline-block;
 }
-    z-index: -1;
-    transform: .5s;
-}
 
 .social-media a:hover::before {
     width: 100%;

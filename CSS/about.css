@@ -190,7 +190,12 @@ img {
     padding: 5px 12px;
     border-radius: 12px;
     letter-spacing: 1px;
-    margin-left: 11vh;
+    display: inline-block;
+    margin: 5px;
+}
+
+.button-container {
+    text-align: center;
 }
 
 .button a {
